@@ -141,7 +141,7 @@ The default is: `false`
 
 Get the formula
 ```
-brew tap janritter/terrastate
+brew tap trustedshops-public/terrastate https://github.com/trustedshops-public/terrastate
 ```
 
 Install terrastate

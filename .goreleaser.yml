@@ -37,21 +37,21 @@ checksum:
 
 release:
   github:
-    owner: janritter
+    owner: trustedshops-public
     name: terrastate
 
 homebrew_casks:
   - name: terrastate
-    homepage: https://github.com/janritter/terrastate
+    homepage: https://github.com/trustedshops-public/terrastate
     description: Tool to manage multiple states in Terraform - Allows Multi account setups
     directory: Casks
     commit_msg_template: "chore: brew cask update for {{ .ProjectName }} version {{ .Tag }} [skip ci]"
     commit_author:
-      name: goreleaserbot
-      email: git+circleci@janrtr.de
+      name: Trusted Shops Bot
+      email: github-bot@trustedshops.com
     repository:
-      owner: janritter
-      name: homebrew-terrastate
+      owner: trustedshops-public
+      name: terrastate
       branch: main
       token: "{{ .Env.GITHUB_TOKEN }}"
     hooks:

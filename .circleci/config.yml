@@ -78,7 +78,7 @@ workflows:
               only:
                 - main
           context:
-            - github-release
+            - semantic-release
       - build:
           requires:
             - release
@@ -87,4 +87,4 @@ workflows:
               only:
                 - main
           context:
-            - github-release
+            - semantic-release
